@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 31, 2020, 10:35:58 PM
+    Author     : Hareem Khanazmi 16946714
+    Author     : Jack Wang 19062259
+*/
+
+body {
+    background-image: url('images.png');
+    background-repeat: repeat-x;
+    background-size: 150%;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+p{
+    text-align: center;
+    text-height: 40;
+    font-size: 20px
+}
+div{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+input[type=text]{
+    width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #2AF590;
+    align-content: center;
+
+}
+input[type=submit]{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #2AF590;
+    font-size: 20px;
+    background-color: #2AF590;
+
+}
+
+
+
+

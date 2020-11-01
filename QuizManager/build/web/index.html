@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>QUIZ APPLICATION SERVICE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <h1>QUIZ MANAGER</h1>
+
+        <h2>Quiz Website For Manager</h2>
+        <h3>Enter a new question to Add</h3>
+        <form action="http://localhost:8080/QuizManager/quizservice/QuestInput" method="POST">
+            <p>
+                Question:
+                <input type="text" name="Question"/>
+            </p>
+            <p>
+                Answer:
+                <input type="text" name="Answer"/>
+            </p>
+            <p>
+                Option One:
+                <input type="text" name="opOne"/>
+            </p>
+            <p>
+                Option Two:
+                <input type="text" name="opTwo"/>
+            </p>
+            <p>
+                Option Three:
+                <input type="text" name="opThree"/>
+            </p>
+            <p>
+                Option Four:
+                <input type="text" name="opFour"/>
+            </p>
+            <div>
+                <input type="submit" value="Add Question"/>
+            </div>
+        </form>
+        <form action="http://localhost:8080/QuizManager/quizservice/QuestInput/search" method="POST">
+            <p>
+                Search: Enter ID
+                <input type="text" name="SE">
+                <input type="submit" value="SEARCH"/>
+            </p>
+        </form>
+
+        <form action="http://localhost:8080/QuizManager/quizservice/QuestInput/DEL" method="POST">
+            <p>
+                Search: Enter ID
+                <input type="text" name="DEL">
+                <input type="submit" value="DELETE"/>
+            </p>
+        </form>
+    
+        <p><a href="http://localhost:8080/QuizManager/quizservice/quesControl/show">See ALL</a></p>
+          
+    
+    </body>
+</html>
